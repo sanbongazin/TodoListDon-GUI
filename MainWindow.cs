@@ -163,7 +163,7 @@ namespace WindowsFormsApplication1
                 i++;
                 TodoString += i + ":[ ]" + s + Environment.NewLine;
             }
-            client.PostNewStatus(status: TodoString +"#"+ UserName +"_On_TodoListDon");
+            client.PostNewStatus(status: TodoString +"#"+ UserName +"_On_TodoListDon",visibility:Visibility.Unlisted);
         }
 
 
